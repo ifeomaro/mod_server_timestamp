@@ -15,6 +15,8 @@ mod_server_timestamp source code:
   - git checkout -b 2.0.x origin/2.0.x
   - export EJABBERD_PATH=$HOME/ejabberd/src
 - Run `make` from `src`.
+- Add `{mod_server_timestamp, []}` to the modules section of /etc/ejabberd/ejabberd.cfg
+
 TODO: add makefile
 
 
