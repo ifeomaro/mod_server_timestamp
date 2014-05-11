@@ -14,7 +14,7 @@ mod_server_timestamp source code:
   - git clone https://github.com/processone/ejabberd.git
   - git checkout -b 2.0.x origin/2.0.x
   - export EJABBERD_PATH=$HOME/ejabberd/src
-- Run `make` from `src/`.
+- Run `make` from `src`.
 
 ### Sample Message Stanza
 - `<message type="chat" from=“Alice” to="Bob" id=“ae134" serverTimestamp="1399779348">`
