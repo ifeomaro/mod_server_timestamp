@@ -9,16 +9,13 @@ mod_server_timestamp source code:
 
 ## Setting up
 
-- Install [erlang] (https://github.com/erlang/otp)
-- Install ejabberd
-  - git clone https://github.com/processone/ejabberd.git
-  - git checkout -b 2.0.x origin/2.0.x
-  - export EJABBERD_PATH=$HOME/ejabberd/src
-- Run `make` from `src`.
+- Install [erlang] (http://www.erlang.org/download_release/8)
+- Install [ejabberd] (https://github.com/processone/ejabberd) (Branch 2.0.x)
+- `export EJABBERD_PATH=$HOME/ejabberd/src`
+- `cd path/to/mod_server_timestamp/src/`.
+  - `make`
+  - `make install`
 - Add `{mod_server_timestamp, []}` to the modules section of `/etc/ejabberd/ejabberd.cfg`
-
-TODO: add makefile
-
 
 
 ### Sample Message Stanza
